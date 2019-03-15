@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+   <bean id="ProductDao" class="com.ouc.edu.dao.impl.ProductDaoImpl"/>
+  <!--  <bean id="ProductDao" class="com.ouc.edu.dao.impl.ProductDaoHibImpl"/> -->
+   <bean id="UserDao" class="com.ouc.edu.dao.impl.UserDaoImpl"/>
+   <bean id="CategoryDao" class="com.ouc.edu.dao.impl.CategoryDaoImpl"/>
+   <bean id="OrderDao" class="com.ouc.edu.dao.impl.OrderDaoImpl"/>
+   
+   <bean id="ProductService" class="com.ouc.edu.service.impl.ProductServiceImpl"/>
+   <bean id="UserService" class="com.ouc.edu.service.impl.UserServiceImpl"/>
+   <bean id="CategoryService" class="com.ouc.edu.service.impl.CategoryServiceImpl"/>
+   <bean id="OrderService" class="com.ouc.edu.service.impl.OrderServiceImpl"/>
+   <!--  
+   <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+   		<property name="driverClass" values="${driver}"></property>
+   		<property name="jdbcUrl" values="${url}"></property>
+   		<property name="user" values="${jdbc.username}"></property>
+   		<property name="password" values="${password}"></property>
+   </bean>
+   -->
+</beans>
